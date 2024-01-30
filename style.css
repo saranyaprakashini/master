@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@500&display=swap');
+
+*{
+    margrin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#navbar{
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 100;
+    padding: -5px, 5px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,05);
+    background: black;
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight:800;
+    color:Green !important;
+}
+#navbarSupportedContent{
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid green;
+}
+#navbarSupportedContent button{
+    background: green;
+    width: 100px;
+    border-radius: 15px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ /****Home****/
+#Home{
+
+    background: url(../Bootstrap/bgimgspices.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#Home h1{
+    font-size: 50px;
+    color:  white;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#Home p{
+    font-size: 10px;
+    color: white;
+}
+#Home .input-group{
+    width: 40%;
+    height: 45px;
+}
+.btn-signin{
+    background: green !important;
+    color: white !important;
+}
+
+
+/****About**/
+#about{
+    background: linear-gradient(to right, #ea1d6f,#eb466b 100%); 
+}
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+}
+#about p{
+    color: white;
+}
+
+/****products**/
+
+#product{
+    background-color: aqua;
+}
+#product h1{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: black;
+}
+#product img{
+    width: 200px;
+    height: 200px;
+    
+}
+.card{
+    width: 250px;
+    height:300px;
+    background: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3);
+    border-radius: 20px !important;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+}
+ 
+
+/****contact us**/
+
+#contact img{
+    height: 100%;
+    width: 500px;
+    border: 2px solid red;
+}
+.box{
+    width: 80% !important;
+    margin-top: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin:10px  0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background: black;
+    text-align: center;
+    color:white;
+}
